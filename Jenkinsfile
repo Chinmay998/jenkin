@@ -21,7 +21,7 @@ stages{
 			}
 								steps {
 										sh "sudo yum install httpd -y"
-										sh "sudo yum install tree -y"
+										
 								}
 			}
 			
