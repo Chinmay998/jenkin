@@ -16,7 +16,7 @@ stages{
 			stage ('install-soft-on-172.31.30.146'){
 			agent {
 						label {
-									label "qa"
+									label "172.31.30.146"
 						}
 			}
 								steps {
