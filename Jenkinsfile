@@ -13,10 +13,10 @@ stages{
 								}
 			}
 			
-			stage ('install-soft-on-172.31.45.193'){
+			stage ('install-soft-on-172.31.30.146'){
 			agent {
 						label {
-									label "172.31.45.193"
+									label "172.31.30.146"
 						}
 			}
 								steps {
